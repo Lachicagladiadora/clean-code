@@ -17,3 +17,5 @@
 3. Function names should say what they do
 4. Functions should only be one level of abstraction
 5. Remove duplicate code (abstraction)
+6. Set default objects with Object.assign.
+7. Don't use flags as function parameters
