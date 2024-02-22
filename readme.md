@@ -20,3 +20,4 @@
 6. Set default objects with Object.assign.
 7. Don't use flags as function parameters
 8. Avoid Side Effects (part 1)
+9. Avoid Side Effects (part 2)
