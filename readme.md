@@ -21,3 +21,12 @@
 7. Don't use flags as function parameters
 8. Avoid Side Effects (part 1)
 9. Avoid Side Effects (part 2)
+10. Don't write to global functions
+11. Favor functional programming over imperative programming
+12. Encapsulate conditionals
+13. Avoid negative conditionals
+14. Avoid conditionals
+15. Avoid type-checking (part 1)
+16. Avoid type-checking (part 2)
+17. Don't over-optimize
+18. Remove dead code

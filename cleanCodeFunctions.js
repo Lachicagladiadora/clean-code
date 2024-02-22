@@ -269,6 +269,20 @@ const addItemToCart = (cart, item) => {
 };
 
 // 10. Don't write to global functions
+// Bad
+Array.prototype.diff = function diff(comparisonArray) {
+  const hash = new Set(comparisonArray);
+  return this.filter((elem) => !hash.has(elem));
+};
+
+// Good
+class SuperArray extends Array {
+  diff(comparisonArray) {
+    const hash = new Set(comparisonArray);
+    return this.filter((elem) => !hash.has(elem));
+  }
+}
+
 // 11. Favor functional programming over imperative programming
 // Javascript is not a functional language, but it prioritizes functional programming
 // Bad
