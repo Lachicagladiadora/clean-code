@@ -30,3 +30,8 @@
 16. Avoid type-checking (part 2)
 17. Don't over-optimize
 18. Remove dead code
+
+# Objects and data structure
+
+1. Use getters and setters
+2. Make objects have private members
