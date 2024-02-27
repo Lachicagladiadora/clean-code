@@ -33,5 +33,4 @@
 
 # Objects and data structure
 
-1. Use getters and setters
-2. Make objects have private members
+1. Make objects have private members
