@@ -239,7 +239,7 @@ class DOMTraverser {
   }
 }
 
-const $ = new DOMTraverser({
+const class1 = new DOMTraverser({
   rootNode: document.getElementsByTagName("body"),
   animationModule() {}, // Most of the time, we won't need to animate when traversing.
   // ...
@@ -269,7 +269,7 @@ class DOMTraverser {
   }
 }
 
-const $ = new DOMTraverser({
+const class2 = new DOMTraverser({
   rootNode: document.getElementsByTagName("body"),
   options: {
     animationModule() {},
@@ -305,8 +305,8 @@ class InventoryTracker {
   }
 }
 
-const inventoryTracker = new InventoryTracker(["apples", "bananas"]);
-inventoryTracker.requestItems();
+const inventoryTracker1 = new InventoryTracker(["apples", "bananas"]);
+inventoryTracker1.requestItems();
 
 // Good
 class InventoryTracker {
